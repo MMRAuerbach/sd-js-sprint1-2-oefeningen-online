@@ -1,0 +1,102 @@
+/* Main information - resetting some defaults (yes that you can do on elements!)*/
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    margin-left: 5px;
+    background-color: #cfc2c2;
+    color:#312;
+}
+
+*:focus {
+    outline-width: 0;
+}
+
+/* The grid */
+.basic-grid {
+    display: grid;
+    grid-template-columns: 60% 30%;
+  }
+
+.grid-item {
+    margin: 25px;
+    border: 1px solid #312;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Setting up the light theme */
+.button_light {
+    background-color: #312;
+    border-radius: 5px;
+    color: #cfc2c2;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #312;
+}
+
+.button_light:hover {
+    background-color: #cfc2c2;
+    color: #312;
+    border: 1px solid #312;
+}
+
+.input_light {
+    background-color: #cfc2c2;
+    color: #312;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #312;
+}
+
+.input_light::placeholder {
+    color: rgba(51, 17, 34, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dark theme solutions */
+.the_body_dark {
+    background-color: #312;
+    color: #cfc2c2;
+}
+
+.button_dark {
+    border: 1px solid #312;
+    background-color: #cfc2c2;
+    border-radius: 5px;
+    color: #312;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button_dark:hover {
+    background-color: #312;
+    color: #cfc2c2;
+    border: 1px solid #312;
+}
+
+.input_dark {
+    background-color: #312;
+    color: #cfc2c2;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cfc2c2;
+}
+
+.input_dark::placeholder {
+    color: rgba(207,194,194, 0.5);
+}
